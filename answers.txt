@@ -1,0 +1,32 @@
+1. An arrow function is a shorter way to write functions in Javascript, It uses => .
+// Normal function
+function add(a, b) {
+  return a + b;
+}
+
+// Arrow function
+const add = (a, b) => a + b;
+
+2. Destructuring allows you to extract values from arrays or objects into variables easily.
+const person = { name: "John", age: 25 };
+const { name, age } = person;
+
+console.log(name); // John
+console.log(age);  // 25
+
+3.The spread operator is used to copy or combine arrays and objects
+const numbers = [1, 2, 3];
+const newNumbers = [...numbers, 4, 5];
+
+console.log(newNumbers); // [1, 2, 3, 4, 5]
+
+4.A ternary operator is a short form of an if...else statement
+const age = 18;
+const result = age >= 18 ? "Adult" : "Minor";
+
+console.log(result);
+
+5.map() loops through the names arrays
+For each name, it returns a greeting string
+The result is a new arrays
+e.g ["Hello Alice", "Hello Bob"]
